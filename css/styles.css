@@ -184,8 +184,7 @@ color: #434455;
     padding: 32px 0 32px;
 }
 .name-text{
-    text-align: center;
-    margin-bottom: 8px;
+    padding: 32px 0 32px;
 }
 .portfolio{
     font-weight: 500;
@@ -216,10 +215,9 @@ color: #434455;
     width: calc((100% - 48px) / 3);
 }
 .container-text{
-    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    padding: 32px 0 32px;
 }
 .foot{
     background-color: #2e2f42;
