@@ -217,7 +217,8 @@ color: #434455;
 .container-text{
     border: 1px solid #e7e9fc;
     border-top: none;
-    padding: 32px 0 32px;
+    padding: 32px 16px;
+    margin-bottom: 8px;
 }
 .foot{
     background-color: #2e2f42;
