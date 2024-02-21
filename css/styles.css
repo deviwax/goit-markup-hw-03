@@ -93,6 +93,7 @@ color: #434455;
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
+    padding: 188px 0 188px;
 }
 .hero-text{
     font-size: 56px;
@@ -102,8 +103,6 @@ color: #434455;
     color: #FFFFFF;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 188px;
-    padding-bottom: 48px;
     align-items: center;
     max-width: 496px;
 }
@@ -119,6 +118,7 @@ color: #434455;
     display: block;
     margin: 0 auto;
     border: none;
+    min-width: 169px;
 }
 .button:hover,
 .button:focus{
@@ -134,7 +134,10 @@ color: #434455;
 }
 .portfolio-text{
     display: flex;
-    gap: 24;
+    gap: 24px;
+}
+.first-text{
+    width: calc((100%-3*24px)/4);
 }
 .visually-hidden{
     position: absolute;
@@ -159,10 +162,11 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
+    text-align: center;
 }
 .team-text{
     display: flex;
-    gap: 24;
+    gap: 24px;
 }
 .team{
     font-size: 36px;
@@ -171,10 +175,15 @@ color: #434455;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .team-section{
     background-color: #FFFFFF;
     margin-right: 24px;
+    border-radius: 0px 0px 4px 4px;
+}
+.name-text{
+    padding: 32px 0 32px;
 }
 .portfolio{
     font-weight: 500;
@@ -182,6 +191,8 @@ color: #434455;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
 }
 .section-portfolio{
     font-size: 36px;
@@ -190,20 +201,33 @@ color: #434455;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .portfolio-section{
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 48px;
+}
+.our-text{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .foot{
     background-color: #2e2f42;
+    
 }
 .foot-p{
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+.foot-logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-part-foot{
     color: #F4F4FD;
@@ -214,4 +238,5 @@ color: #434455;
     margin-top: 16px;
     max-width: 232px;
     margin-right: 1020px;
+    padding: 100px 0 100px;
 }
