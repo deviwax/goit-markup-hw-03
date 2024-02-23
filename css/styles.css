@@ -6,6 +6,9 @@ body{
 a{
     text-decoration: none;
 }
+h1, h2, h3, p{
+    margin: 0;
+}
 ul, ol{
     list-style: none;
     padding: 0;
@@ -96,7 +99,6 @@ color: #434455;
 .hero-bg{
     background-color: #2E2F42;
     width: 1440px;
-    height: 600px;
     padding: 188px 0 188px;
 }
 .hero-text{
@@ -109,6 +111,8 @@ color: #434455;
     margin-left: auto;
     align-items: center;
     max-width: 496px;
+    margin-top: 0;
+    margin-bottom: 48px;
 }
 .button{
      background-color: #4D5AE5;
@@ -166,7 +170,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 }
 .team-text{
     display: flex;
@@ -184,12 +188,25 @@ color: #434455;
 .team-section{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    padding: 32px 0 32px;
-    width: calc((100%-72)/4);
+    width: calc((100% - 72px) / 4);
 }
 .name-text{
     padding-top: 32px;
     padding-bottom: 32px;
+    text-align: center;
+}
+.portfolio-h{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.section-p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
 }
 .portfolio{
     font-weight: 500;
@@ -198,7 +215,7 @@ color: #434455;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
 }
 .section-portfolio{
     font-size: 36px;
@@ -224,6 +241,7 @@ color: #434455;
     border-top: none;
     padding: 32px 16px;
     margin-bottom: 8px;
+    text-align: left;
 }
 .foot{
     background-color: #2e2f42;
@@ -233,18 +251,14 @@ color: #434455;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 .foot-logo{
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 0;
 }
 .logo-part-foot{
     color: #F4F4FD;
 }
-.foot-bg{
-    width: 1440px;
-    height: 312px;
-    margin-top: 16px;
-    max-width: 232px;
-    margin-right: 1020px;
-}
+
